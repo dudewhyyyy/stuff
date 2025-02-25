@@ -7,61 +7,8 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="https://vitejs-vite-a8n8sxy1.stackblitz.io/src/style.css"
-    />
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      /* Style the body */
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-      }
-      /* Header/logo title */
-      header {
-        padding: 60px;
-        text-align: left;
-        background: #232b29;
-        color: #f1f1f1;
-        font-size: 30px;
-      }
-      header h1 {
-        font-size: 40px;
-      }
-      nav.main-nav {
-        color: black;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        width: 100%;
-        position: sticky;
-        top: 0; /* Fixed at the top */
-      }
-      nav.main-open {
-        left: 0; /* Slide from the left */
-      }
-      nav.main-nav a {
-        color: black;
-        padding: 10px;
-      }
-      nav.main-nav div {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-      }
-      nav.main-nav a:hover {
-        background-color: #575757;
-        border-radius: 5px;
-      }
-      .main-content {
-        margin-top: 80px; /* Adjust the margin to make space for the navigation bar */
-        padding: 20px;
-        width: 100%;
-      }
-    </style>
+      href="src/style.css"/>
+   
 
     <script>
       function toggleMenu() {
@@ -71,8 +18,8 @@
     </script>
   </head>
   <body>
+    <section class="heroSection">
     <nav class="main-nav" id="main-nav">
-      <img src="C:\Users\jonas\Downloads\colin-watts-O_vfjjh6t3k-unsplash 3.png" alt="logo" />
       <h1>Welcome</h1>
       <div>
         <a href="#">Home</a>
@@ -85,5 +32,6 @@
     <div class="main-content" id="container">
       <h1>Example with Navigation Bar and Sidebar</h1>
     </div>
+  </section>
   </body>
 </html>
